@@ -348,20 +348,11 @@ echo "/bin/false" >> /etc/shells
 echo "/usr/sbin/nologin" >> /etc/shells
 rm -fr /etc/issue.net
 cat> /etc/issue.net << END
-<p style="text-align:center"><b><font color='#FF0059'>S</font><font color='#FF0031'>E</font><font color='#FF0004'>L</font><font color='#FF2700'>A</font><font color='#FF4D00'>M</font><font color='#FF7000'>A</font><font color='#FF9200'>T</font><font color='#FFB500'> </font><font color='#FFDB00'>D</font><font color='#F5FE00'>A</font><font color='#C9FE00'>T</font><font color='#A1FF00'>A</font><font color='#79FF00'>N</font><font color='#50FF00'>G</font><font color='#23FF00'>!</font><font color='#00FF11'>
-</font><font color='#00FF41'>S</font><font color='#00FE6C'>E</font><font color='#00FF94'>L</font><font color='#00FFBB'>A</font><font color='#00FFE6'>M</font><font color='#00E9FF'>A</font><font color='#00C1FF'>T</font><font color='#009DFE'> </font><font color='#007BFF'>M</font><font color='#0059FF'>E</font><font color='#0034FF'>N</font><font color='#000BFF'>I</font><font color='#2200FF'>K</font><font color='#4C00FE'>M</font><font color='#7300FF'>A</font><font color='#9B00FF'>T</font><font color='#C700FF'>I</font></b></br>        <font color='#F5FE00'>SERVER PREMIUM</font>
-<p style="text-align:center"><font color ="#FF00FF"><b><font size="8">TRENADM STORE</font></b><font/></p>
-<p style="text-align:center"><b><font color ="#FF0000"> 1.HIDUPKAN & MATIKAN  mode pesawat jika ga konek jeda 10detik<br/>
-<font color ="#FF0000"> 2.MAINKAN "enable dns" jika bengong</font><br/>
-<font color ="#FF0000"> 3.jangan lupa bersyukur kalo konek</font><br/>
-<font color ="#FF0000">JIKA MAU CONFIG PREMIUM HUB</font><br/>
-<font color ="#7FFF00"> <a>https://wa.me/6282130442520 </a> </font><br/></b>
-<font color ="#FF0000"><b>Gabung grup whatsapp<b/></font><br/>
-<font color ="#7FFF00"> <a><b>https://chat.whatsapp.com/DA5HIl0S6z9782QFQ5S86T<b/></a> </font><br/></b>
-<p style="text-align:center"><font color='#79FF00'><b>⚙️PERATURAN PENGGUNA⚙️</b>
-<font color='#79FF00'></br>🚫<b>Don't do anything bad<br/>
-🚫MAX 2 Device <br/>
-⛔Melanggar AUTO </font> <font color ="#FF0000"> BLOKIR!! </font></b></p>
+<font><br> <font color='#20CDCC'><b> NO
+SPAM </b></font><br> <font color='#10C7E5'><b> NO DDOS </b></font><br>
+<font color='#00C1FF'><b> NO HACKING AND CARDING </b></font><br> <font
+color="#E51369"><b> NO TORRENT!!  </b> </font><br> <font
+color="#E51369"><b> NO MULTY LOGIN!!  </b> </font><br> <font/>
 END
 /etc/init.d/dropbear restart
 echo "/bin/false" >> /etc/shells
