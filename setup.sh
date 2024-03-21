@@ -358,7 +358,6 @@ cat> /etc/issue.net << END
 <font color ="#7FFF00"> <a>https://wa.me/6282130442520 </a> </font><br/></b>
 <font color ="#FF0000"><b>Gabung grup whatsapp<b/></font><br/>
 <font color ="#7FFF00"> <a><b>https://chat.whatsapp.com/DA5HIl0S6z9782QFQ5S86T<b/></a> </font><br/></b>
-<font color ="#7FFF00"> <a><b>https://chat.whatsapp.com/D5behES81AhBaE9rbZgKHZ<b/></a> </font><br/></b>
 <p style="text-align:center"><font color='#79FF00'><b>⚙️PERATURAN PENGGUNA⚙️</b>
 <font color='#79FF00'></br>🚫<b>Don't do anything bad<br/>
 🚫MAX 2 Device <br/>
