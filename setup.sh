@@ -348,10 +348,19 @@ echo "/bin/false" >> /etc/shells
 echo "/usr/sbin/nologin" >> /etc/shells
 rm -fr /etc/issue.net
 cat> /etc/issue.net << END
-<font color='#20CDCC'><b> NO
-SPAM </b></font><br> <font color='#10C7E5'><b> NO DDOS </b></font><br>
-<font color='#00C1FF'><b> NO HACKING AND CARDING </b></font><br> 
-<font color="#E51369"><b> NO TORRENT!!  </b> </font><br> <font color="#E51369"><b> NO MULTY LOGIN!!  </b> </font><br>
+   <p style="text-align:center"><b>
+<br><font color='#FF0000'><b>╔═══ꕥ═══क⊹⊱ Trenadm Store ⊰⊹क═══ꕥ═══╗</b></font></br></br><br><br>
+<br><font color='#FFDB00'> TRENADM STORE<font color=><p style="text-align:center"><b>
+<br><font color='#FF0000'><b>╚═══ꕥ═══क⊹⊱ Trenadm Store ⊰⊹क═══ꕥ═══╝</b></font> </font><br/>
+<font color ="#FF0000">CONFIG PREMIUM HUB</font><br/>
+<font color ="#7FFF00"> <a>https://wa.me/6282130442520 </a> </font><br/></b>
+<font color ="#FF0000"><b>Gabung grup config gratis whatsapp<b/></font><br/>
+<font color ="#7FFF00"> <a><b>https://bit.ly/cnfg-fre<b/></a> </font><br/></b><font color ="#FF0000"><b>Grup 2<b/></font><br/>
+<font color ="#7FFF00"> <a><b>https://bit.ly/3TIbIS2<b/></a> </font><br/></b>
+<p style="text-align:center"><font color='#79FF00'><b>⚙️PERATURAN PENGGUNA⚙️</b>
+<font color='#79FF00'></br>🚫<b>NO PORNO!!!<br/>
+🚫MAX 2 Device <br/>
+⛔Melanggar AUTO </font> <font color ="#FF0000"> BLOKIR!! </font></b></p>
 END
 /etc/init.d/dropbear restart
 echo "/bin/false" >> /etc/shells
