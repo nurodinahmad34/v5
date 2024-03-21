@@ -348,11 +348,10 @@ echo "/bin/false" >> /etc/shells
 echo "/usr/sbin/nologin" >> /etc/shells
 rm -fr /etc/issue.net
 cat> /etc/issue.net << END
-<font><br> <font color='#20CDCC'><b> NO
+<font color='#20CDCC'><b> NO
 SPAM </b></font><br> <font color='#10C7E5'><b> NO DDOS </b></font><br>
-<font color='#00C1FF'><b> NO HACKING AND CARDING </b></font><br> <font
-color="#E51369"><b> NO TORRENT!!  </b> </font><br> <font
-color="#E51369"><b> NO MULTY LOGIN!!  </b> </font><br> <font/>
+<font color='#00C1FF'><b> NO HACKING AND CARDING </b></font><br> 
+<font color="#E51369"><b> NO TORRENT!!  </b> </font><br> <font color="#E51369"><b> NO MULTY LOGIN!!  </b> </font><br>
 END
 /etc/init.d/dropbear restart
 echo "/bin/false" >> /etc/shells
