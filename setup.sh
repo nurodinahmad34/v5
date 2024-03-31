@@ -23,7 +23,7 @@ run_peli() {
 mkdir /etc/slowdns
 mkdir /etc/xray
 mkdir /etc/websocket
-mkdir /etc/xray
+mkdir /etc/ssh
 mkdir /etc/funny
 mkdir /etc/funny/trojan
 mkdir /etc/funny/vless
