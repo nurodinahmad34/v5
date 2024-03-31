@@ -432,7 +432,11 @@ netfilter-persistent reload
 # download script
 echo "0 0 * * * root reboot" >> /etc/crontab
 echo "0 0 * * * root xp" >> /etc/crontab
-echo "*/1 * * * root kills" >> /etc/crontab
+cat> /etc/cron.d/tendang << END
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+*/1 * * * * root /usr/bin/kills
+END
 # remove unnecessary files
 cd
 apt autoclean -y
