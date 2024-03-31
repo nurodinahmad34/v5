@@ -133,6 +133,8 @@ apt install zlib1g-dev -y
 apt install libssl-dev -y
 apt install libssl1.0-dev -y
 apt install dos2unix -y
+apt install sudo -y
+sudo apt-get install -y cron
 apt install resolvconf network-manager dnsutils bind9 -y
 cat > /etc/systemd/resolved.conf << END
 [Resolve]
