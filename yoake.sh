@@ -24,4 +24,8 @@ systemctl restart limssh >/dev/null 2>&1
 systemctl enable limssh >/dev/null 2>&1
 systemctl start limssh >/dev/null 2>&1
 
-rm -fr yoake.sh
+rm -rf yoake.sh
+echo ""
+echo -e "Successfully added limit ssh"
+read -n 1 -s -r -p "Press any key to back on menu"
+menu
