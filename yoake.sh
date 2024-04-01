@@ -3,7 +3,7 @@ clear
 wget -q -O /usr/local/sbin/limitssh "${REPO}limitssh"
 chmod +x /usr/local/sbin/limitssh
 cd /usr/local/sbin/
-sed -i 's/\r//' quota
+sed -i 's/\r//' limitssh
 cd
 cat > /etc/systemd/system/limssh.service <<-END
 [Unit]
