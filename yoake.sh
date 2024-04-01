@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-systemctl stop limitssh >/dev/null 2>&1
+systemctl stop limssh >/dev/null 2>&1
 wget -q -O /usr/local/sbin/limitssh "${REPO}limitssh"
 chmod +x /usr/local/sbin/limitssh
 cd /usr/local/sbin/
