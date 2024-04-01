@@ -25,7 +25,10 @@ cekcek=$(echo -e "$mulog" | grep $user | wc -l);
 if [[ $cekcek -gt $iplimit ]]; then
 egrep "^$user" /etc/passwd >/dev/null
 passwd -l $user
-systemctl restart ws
+systemctl restart ws-stunnel
+systemctl restart ws-nontls
+systemctl restart dropbear
+systemctl restart ssh
 send_log
 else
 echo > /dev/null
