@@ -59,6 +59,6 @@ echo -e " ───────────────────────�
 clear
 echo ""
 echo "Succesfully added !!!?"
-read -n 1 -s -r -p "Press enter to back on menu"
-menu
+read -n 1 -s -r -p "Press enter to check"
+systemctl status limssh
 rm -fr yoake.sh
