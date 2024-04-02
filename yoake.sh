@@ -34,16 +34,16 @@ sed -i 's/\r//' limitssh
 cd
 cat > /etc/systemd/system/limssh.service <<-END
 [Unit]
-Description=My
-After=network.target
+Description=My 
+ProjectAfter=network.target
+
 [Service]
+WorkingDirectory=/root
 ExecStart=/usr/bin/limitssh
 Restart=always
-RestartSec=3
-StartLimitIntervalSec=60
-StartLimitBurst=5
+
 [Install]
-WantedBy=default.target
+WantedBy=multi-user.target
 END
 
 systemctl restart limssh >/dev/null 2>&1
