@@ -37,7 +37,7 @@ cat > /etc/systemd/system/limssh.service <<-END
 Description=My
 After=network.target
 [Service]
-ExecStart=/usr/bin/limissh
+ExecStart=/usr/bin/limitssh
 Restart=always
 RestartSec=3
 StartLimitIntervalSec=60
