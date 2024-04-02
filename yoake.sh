@@ -57,9 +57,9 @@ echo -e "  \033[1;91m added limit ssh ip\033[1;37m"
 fun_bar 'res1'
 echo -e " ─────────────────────────────────────────────────${NC}"
 clear
+rm -rf yoake.sh
 echo ""
 echo "Succesfully added !!!?"
 read -n 1 -s -r -p "Press enter to check"
 systemctl status limssh
 menu
-rm -rf yoake.sh
