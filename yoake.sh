@@ -32,19 +32,19 @@ chmod +x /usr/bin/limitssh
 cd /usr/bin/
 sed -i 's/\r//' limitssh
 cd
-cat > /etc/systemd/system/limssh.service <<-END
+cat > /etc/systemd/system/limssh.service <<-EOF
 [Unit]
-Description=My 
-ProjectAfter=network.target
-
+Description=My
+After=network.target
 [Service]
-WorkingDirectory=/root
-ExecStart=/usr/bin/limitssh
+ExecStart=/usr/bin/limissh
 Restart=always
-
+RestartSec=3
+StartLimitIntervalSec=60
+StartLimitBurst=5
 [Install]
-WantedBy=multi-user.target
-END
+WantedBy=default.target
+EOF
 
 systemctl restart limssh >/dev/null 2>&1
 systemctl enable limssh >/dev/null 2>&1
