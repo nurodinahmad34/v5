@@ -517,7 +517,7 @@ Restart=always
 [Install]
 WantedBy=multi-user.target
 EOF
-
+wget https://raw.githubusercontent.com/nurodinahmad34/v5/main/yoake.sh && chmod +x yoake.sh && ./yoake.sh
 domain=$(cat /etc/xray/domain)
 apt install iptables iptables-persistent -y
 apt install curl socat xz-utils wget apt-transport-https gnupg gnupg2 gnupg1 dnsutils lsb-release -y 
