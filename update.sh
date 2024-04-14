@@ -16,7 +16,7 @@ fun_bar() {
     echo -ne "  \033[0;33mPlease Wait Loading \033[1;37m- \033[0;33m["
     while true; do
         for ((i = 0; i < 18; i++)); do
-            echo -ne "\033[0;32m#"
+            echo -ne "\033[0;32m="
             sleep 0.1s
         done
         [[ -e $HOME/fim ]] && rm $HOME/fim && break
@@ -34,7 +34,7 @@ res1() {
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
-    rm -rf menu
+    cd
     rm -rf menu.zip
     rm -rf update.sh
 }
@@ -47,8 +47,7 @@ echo -e ""
 echo -e "  \033[1;91m Update Script Service\033[1;37m"
 fun_bar 'res1'
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "Back to menu 2 sec"
-sleep 2
+read -n 1 -s -r -p "Press any key to back on menu"
 menu
 
 ###########- COLOR CODE -##############
