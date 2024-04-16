@@ -1,6 +1,4 @@
 #!/bin/bash
-chmod +x sshxraylimit.sh
-clear
 send_log() {
 TIME="10"
 CHATID="5795571992"
