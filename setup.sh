@@ -385,6 +385,8 @@ rm -f /root/vnstat-2.6.tar.gz
 rm -rf /root/vnstat-2.6
 # install fail2ban
 apt -y install fail2ban
+sudo apt install fail2ban
+wget ${REPO}sshxraylimit.sh && chmod +x sshxraylimit.sh && ./sshxraylimit.sh
 
 # Instal DDOS Flate
 if [ -d '/usr/local/ddos' ]; then
@@ -434,11 +436,8 @@ netfilter-persistent reload
 # download script
 echo "0 0 * * * root reboot" >> /etc/crontab
 echo "0 0 * * * root xp" >> /etc/crontab
-cat> /etc/cron.d/tendang << END
-SHELL=/bin/sh
-PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-*/1 * * * * root /usr/bin/kills
-END
+echo "0 */1 * * * root sshxraylimit" >> /etc/crontab
+
 # remove unnecessary files
 cd
 apt autoclean -y
